@@ -4,7 +4,7 @@ export default function Aside() {
     return (
         <div className={styles.container0}>
             <aside className={styles.aside}>
-                <img src="/poster.jpg" alt="Um poster do Mc Donal´s" />
+                <img src="/front3.jpg" alt="Um poster do Mc Donal´s" />
             </aside>
         </div>
     )
