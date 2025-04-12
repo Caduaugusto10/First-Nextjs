@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.title {
+    color: white;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    height: 85vh;
+}
+
+@media (max-width: 425px) {
+    .main {
+        flex-direction: column;
+        height: 100%;
+    }
+}

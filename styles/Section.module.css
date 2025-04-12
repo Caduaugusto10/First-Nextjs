@@ -1,0 +1,25 @@
+.cards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+    margin: 40px;
+}
+
+.horizontal {
+    display: flex;
+    background: black;
+    color: white;
+    justify-content: center;
+    height: 100%;
+    border-radius: 30px;
+    align-items: center;
+}
+
+@media (max-width: 425px) {
+    .horizontal {
+        flex-direction: column;
+        height: 100%;
+        width: 80%;
+    }
+}

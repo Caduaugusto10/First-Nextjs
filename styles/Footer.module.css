@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Shafarik&display=swap");
+
+.footer {
+    background: black;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+    font-family: 'Anton regular', sans-serif;
+}
+
+.text {
+    color: white;
+}
